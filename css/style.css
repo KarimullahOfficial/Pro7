@@ -1,7 +1,61 @@
-h1 {
-  color: yellow;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
 }
-
-h2 {
-  color: yellowgreen;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.log img {
+  width: 150px;
+  height: auto;
+}
+.center {
+  display: flex;
+}
+.search {
+  display: flex;
+}
+.search input {
+  min-width: 600px;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.search button {
+  padding: 10px 20px;
+  border-radius: 10%;
+  border: none;
+}
+.mic {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: rgb(179, 175, 175);
+  display: grid;
+  place-items: center;
+  margin-left: 15px;
+}
+.side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.tags {
+  display: flex;
+  padding: 10px 20px;
+  gap: 10px;
+  border-top: 1px solid gray;
+}
+.tag {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px 15px;
 }
